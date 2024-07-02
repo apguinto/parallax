@@ -1,0 +1,92 @@
+/* PARALLAX.CSS */
+/*CSS created by Christopher Jay De Claro*/
+/*github.com/cjdeclaro*/
+
+/*Key Art default settings*/
+
+.keyart,
+.keyart_layer {
+	height: 1000px;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+
+.keyart_layer.parallax {
+	position: fixed;
+}
+
+.main-content {
+	width: 100%;
+	position: absolute;
+	z-index: 200;
+}
+
+/*ADD OR REMOVE LAYERS AS NEEDED*/
+
+#keyart-0 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/stars.png);
+}
+
+#keyart-1 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/moon.png);
+}
+
+#keyart-2 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/cloud1.png);
+}
+
+#keyart-3 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/cloud2.png);
+}
+
+#keyart-4 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/cloud3.png);
+}
+
+#keyart-5 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/backBuildings.png);
+}
+
+#keyart-6 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/frontBuildings.png);
+}
+
+#keyart-scrim {
+	opacity: 0;
+}
+
+/* ADDED CSS FOR NEW CONTENT */
+
+.illustration {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#illustration-1 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/moonlight1.png);
+	min-height: 100%;
+}
+
+#illustration-2 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/wisteria.png);
+	min-height: 100%;
+}
+
+#illustration-3 {
+	background-image: url(https://raw.githubusercontent.com/apguinto/parallax/main/img/moonlight2.png);
+	min-height: 100%;
+}
